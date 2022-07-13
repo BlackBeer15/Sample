@@ -1,0 +1,75 @@
+header {
+	width: 100%;
+	height: 100vh;
+	background-image: url(../images/rose.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.back-opacity {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	opacity: 40%;
+	background-color: black;
+	animation: opa 3s linear;
+	animation-iteration-count: 1;
+}
+
+@keyframes opa {
+	0% {
+		opacity: 0%;
+	}
+
+	50% {
+		opacity: 25%;
+	}
+
+	100% {
+		opacity: 40%;
+	}
+}
+
+.label {
+	margin-top: 15%;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+}
+
+.label p {
+	margin: 0;
+	font-family: 'Roboto';
+	font-weight: 700;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 5px black;
+	font-size: 60px;
+	color: white;
+}
+
+.label p:last-child {
+	font-size: 48px;
+}
+
+.label div {
+	margin-top: 200px;
+}
+
+.button {
+	padding: 10px 15px;
+	text-decoration: none;
+	color: white;
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 30px;
+	border: 1px solid white;
+	border-radius: 8px;
+	text-shadow: 3px 3px 5px black;
+	transition: 0.6s;
+	text-transform: uppercase;
+}
+
+.button:hover {
+	font-size: 34px;
+}

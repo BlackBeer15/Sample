@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Example</title>
+	<meta charset="utf-8" />
+	<link rel="shortcut icon" href="images/fav.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="styles/style.css" />
+	<link rel="stylesheet" type="text/css" href="styles/bodyreq.css">
+	<link rel="stylesheet" type="text/css" href="styles/mediareq.css">
+	<!--Parallax-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- Send -->
+    <script src="scripts/script.js"></script>
+    <!-- alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+</head>
+<body>
+	<div class="scene" id="scene">
+        <div class="item" data-depth="0.05"><img src="images/kly.png" /></div>
+        <div class="item" data-depth="0.07"><img src="images/kly1.png" /></div>
+        <div class="item" data-depth="0.06"><img src="images/kly2.png" /></div>
+        <div class="item" data-depth="0.12"><img src="images/kly3.png" /></div>
+        <div class="item" data-depth="0.2"><img src="images/kly4.png" /></div>
+        <div class="item" data-depth="0.12"><img src="images/kly5.png" /></div>
+    </div>
+    <div class="req-container">
+    	<div class="top-req">
+    		<p>Example</p>
+    	</div>
+    	<div class="form-time">
+    		<div class="form-bl">
+    			<form>
+	    			<input type="hidden" name="project_name" value="Example" />
+	        		<input type="hidden" name="admin_email" value="little4biz@gmail.com" />
+	        		<input type="hidden" name="form_subject" value="Example.ru" />
+	        		Example 1:<br /><input type="text" name="Name" placeholder="Example..." required />
+	        		<br />
+	        		Example 2:<br /><input type="text" name="Phone" placeholder="Example..." required />
+	        		<br />
+	        		Example 3:<input class="inp" type="text" name="text" placeholder="Example..." required>
+	        		<br />
+	        		<button>отправить</button>
+    			</form>
+    		</div>
+    		<div class="time-bl">
+    			<div class="time-el">
+    				<p class="top-time-el">Text:</p>
+    				<div class="line-sale">
+						<hr />
+						<div></div>
+					</div>
+    				<p class="content-time">Text text text text</p>
+    				<p class="content-time">text text text</p>
+    			</div>
+    		</div>
+    	</div>
+    	<p class="bottom-req">Таким образом постоянный количественный рост <br /> и сфера нашей активности требуют <br /><a href="index.html" class="back">Вернуться на главную</a></p>
+    </div>
+	
+    <!--Paralax-->
+    <script type="text/javascript">
+        var scene = document.getElementById('scene');
+        var parallaxInstance = new Parallax(scene);
+    </script>
+</body>
+</html>

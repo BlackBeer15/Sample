@@ -1,0 +1,134 @@
+@media only screen and (max-width:2560px) {
+	.scene {
+		visibility: hidden;
+	}
+
+	.top-time-el {
+		padding-top: 70px;
+	}
+
+	.req-container {
+		margin-top: 200px;
+	}
+}
+
+@media only screen and (max-width:2000px) {
+	.scene {
+		visibility: visible;
+	}
+
+	.req-container {
+		margin-top: 0;
+	}
+}
+
+@media only screen and (max-width:1200px) {
+	body {
+		height: 1400px;
+	}
+
+	.scene {
+		visibility: hidden;
+	}
+
+	.req-container {
+		margin-top: 500px;
+	}
+
+	form {
+		margin-left: 25px;
+		width: 85%;
+	}
+
+	.inp {
+		width: 500px;
+	}
+
+	.time-el {
+		margin: 40% 16%;
+		height: 35%;
+	}
+
+	.top-time-el {
+		padding-top: 25px;
+		font-size: 26px;
+	}
+
+	.content-time {
+		font-size: 24px;
+	}
+}
+
+@media only screen and (max-width:1024px) {
+	body {
+		height: 1400px;
+	}
+
+	.scene {
+		visibility: hidden;
+	}
+
+	.req-container {
+		margin-top: 500px;
+	}
+
+	form {
+		margin-left: 25px;
+		width: 85%;
+	}
+
+	.inp {
+		width: 500px;
+	}
+
+	.time-el {
+		margin: 40% 16%;
+		height: 35%;
+	}
+
+	.top-time-el {
+		padding-top: 25px;
+		font-size: 26px;
+	}
+
+	.content-time {
+		font-size: 24px;
+	}
+}
+
+@media only screen and (max-width:980px) {
+	body {
+		height: 1750px;
+	}
+
+	.scene {
+		visibility: hidden;
+	}
+
+	.req-container {
+		margin-top: 500px;
+	}
+
+	form {
+		margin-left: 25px;
+		width: 85%;
+	}
+
+	.inp {
+		width: 500px;
+	}
+
+	.time-el {
+		margin: 40% 16%;
+		height: 35%;
+	}
+
+	.top-time-el {
+		padding-top: 25px;
+		font-size: 26px;
+	}
+
+	.content-time {
+		font-size: 24px;
+	}
+}

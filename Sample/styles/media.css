@@ -1,0 +1,98 @@
+@media only screen and (max-width:1440px) {
+	/*-----------------------*/
+	.about-me {
+		height: 970px;
+	}
+	/*-----------------------*/
+	.grad-blc {
+		height: 350px;
+	}
+}
+
+@media only screen and (max-width:1370px) {
+	/*-----------------------*/
+	.work-el {
+		width: 375px;
+		height: 541px;
+	}
+
+	.work-el:hover {
+		width: 390px;
+		height: 571px;
+	}
+
+	.work-el-cent {
+		width: 375px;
+		height: 541px;
+	}
+
+	.work-el-cent:hover {
+		width: 390px;
+		height: 571px;
+	}
+
+	.image1 {
+		height: 228px;
+	}
+
+	.image2 {
+		height: 228px;
+	}
+
+	.image3 {
+		height: 228px;
+	}
+
+	.top-el {
+		font-size: 26px;
+		margin-top: 25px;
+	}
+
+	.text {
+		margin-top: 10px;
+	}
+
+	.button-el {
+		margin-top: 20px;
+	}
+	/*-----------------------*/
+}
+
+@media only screen and (max-width:1200px) {
+	iframe {
+		width: 461px;
+		height: 346px;
+		margin-top: 10%;
+	}
+}
+
+@media only screen and (max-width:1024px) {
+	/*------------------------*/
+	.about-work {
+		height: 1500px;	
+	}
+
+	.work-el {
+		margin-top: 100px;
+	}
+
+	.work-el-cent {
+		margin-top: 100px;
+	}
+	/*------------------------*/
+	.text-me {
+		padding: 0 50px;
+	}
+
+	.about-me {
+		height: 950px;
+	}
+	/*------------------------*/
+}
+
+@media only screen and (max-width:980px) {
+	/*-----------------------*/
+	iframe {
+		margin-top: 15%;
+	}
+}

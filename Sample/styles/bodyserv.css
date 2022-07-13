@@ -1,0 +1,90 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-image: url(../images/ser.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #a266ba;
+}
+
+.serv-content {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 3%;
+}
+
+.rows {
+	width: 60%;
+	text-align: center;
+}
+
+.rows ul {
+	list-style: none;
+	font-family: 'Roboto';
+	font-weight: 100;
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+.rows li {
+	margin-top: 25px;
+}
+
+.rows li i {
+	padding-right: 10px;
+}
+
+.button1 {
+	width: 100%;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.first-btn {
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 30px;
+	border: 1px solid black;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	border-radius: 10px;
+	transition: 0.6s;
+}
+
+.first-btn:hover {
+	font-size: 31px;
+	text-shadow: 0px 0px 1px black;
+	box-shadow: 0px 0px 6px #a266ba;
+	color: black;
+	text-decoration: none;
+}
+
+.button2 {
+	width: 100%;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.second-btn {
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 20px;
+	border-bottom: 1px solid black;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0px 20px;
+	transition: 0.6s;
+}
+
+.second-btn:hover {
+	font-size: 21px;
+	text-shadow: 0px 0px 1px black;
+	color: black;
+	text-decoration: none;
+}

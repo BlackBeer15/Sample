@@ -1,0 +1,62 @@
+@media only screen and (max-width:1200px) {
+	body {
+		height: 1400px;
+	}
+
+	header {
+		padding-top: 20%;
+		
+	}
+
+	.rows {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width:1024px) {
+	body {
+		height: 1400px;
+	}
+
+	header {
+		padding-top: 20%;
+		
+	}
+
+	.rows {
+		width: 80%;
+	}
+
+
+}
+
+@media only screen and (max-width:980px) {
+	body {
+		height: 1800px;
+	}
+
+	header {
+		padding-top: 30%;
+		font-size: 46px;
+		font-family: 'Roboto';
+		font-weight: 300;
+	}
+
+	.rows {
+		width: 80%;
+	}
+
+	.rows ul {
+		font-weight: 300;
+	}
+
+	.first-btn {
+		font-size: 40px;
+		font-weight: 300;
+	}
+
+	.second-btn {
+		font-size: 26px;
+		font-weight: 300;
+	}
+}
